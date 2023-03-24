@@ -1,9 +1,9 @@
 body {
-    background-color: #fdfdfd;
+    background-color: #433b3e;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .list  { 
-    font: italic normal 300 1.8em/1.5em Helvetica, sans-serif;color: rgb(4, 100, 65);
+    font: italic normal 300 1.8em/1.5em Helvetica, sans-serif;color: rgb(255, 255, 255);
 }
     
 table {
@@ -12,10 +12,10 @@ table {
         }
         
         h1 {
-            color: rgb(5, 119, 33);
+            color: rgb(196, 166, 194);
         }
         h3{
-            color: rgb(4, 74, 50);
+            color: rgb(156, 118, 151);
         }
         .effect {
             float: right;
