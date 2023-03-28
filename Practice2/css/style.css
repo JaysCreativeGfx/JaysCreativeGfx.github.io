@@ -1,0 +1,24 @@
+ul li {
+    display: inline;
+}
+body, ul {
+    margin: 0;
+}
+nav {
+    background-color: rgb(171, 199, 255);
+    padding: 15px;
+    text-align: right;
+}
+ul {
+    padding: 10px;
+}
+li a {
+    color: antiquewhite;
+    text-decoration: solid;
+     letter-spacing: 2px;
+     t
+}
+li a:hover {
+     text-decoration: underline;
+     letter-spacing: 2px;
+}
