@@ -1,15 +1,33 @@
 H1 {
+    text-align: center;
+ font-size: 50px;
+    height: 200px;
+    width: 1080px;
     
 }
+
 body {
-    background-color: rgb(213, 176, 176);
+    background-color: rgb(64, 132, 161);
+    
 }
-h3 {
-    background-color: rgb(44, 44, 186);
+.penguin {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    float: inline-start;
 }
 p {
     color: rgb(232, 232, 242);
     font-family: MyriadPro-bold;
     font-size: 16px;
     text-align: center;
+}
+ .date {
+
+    text-align: left;
+}
+
+.list {
+color: rgb(0, 208, 255);
+text-decoration: wavy;
+
 }
