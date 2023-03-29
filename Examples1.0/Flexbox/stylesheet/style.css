@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    background-color: blueviolet;
+    height: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(46, 4, 74);
+    margin: 5px;
+    align-items: center;
+}
