@@ -1,0 +1,59 @@
+ul {
+    display: flex;
+    position: relative;
+    color: antiquewhite;
+   
+   
+}
+nav {
+    background-color: rgb(4, 128, 117); width: 1920pxs;
+    padding: px;
+    margin: 5x;
+    align-content: center;
+ justify-content: space-evenly;
+ color: antiquewhite;
+
+}
+body {
+    background-color: bisque;
+    color: azure;
+    
+}
+li,ul {
+    list-style: none;
+    justify-content:space-evenly;
+    color: antiquewhite;
+    
+    
+}
+.dropdown menu {
+    display: flex;
+    background-color: rgb(95, 137, 137);
+    flex-direction: column;
+    position: absolute;
+    opacity: 1px;
+}
+.Triggerdropdown :hover {
+    opacity: 0px;
+    display: flex;
+    position: absolute;
+}
+.logo {
+    justify-content: center;
+    width: 100px;
+    background-image: -moz-element();
+    
+    
+    
+}
+.cookie {
+    background-image: url("../assets/BE.GifAd.gif");
+    
+    
+    justify-content: space-evenly;
+    object-fit: cover;
+    float: right;
+   
+   
+
+}
