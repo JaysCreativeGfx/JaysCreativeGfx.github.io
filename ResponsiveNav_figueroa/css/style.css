@@ -1,0 +1,75 @@
+ul {
+    display: flex;
+    position: relative;
+    color: antiquewhite;
+   
+   
+}
+nav {
+    background-color: rgb(3, 94, 87); width: 1920pxs;
+    padding: px;
+    margin: 5x;
+    align-content: center;
+ justify-content: left;
+ color: antiquewhite;
+ background-image: ('url../assets/cookiesSideway.png');
+
+}
+body {
+    background-color: bisque;
+    color: rgb(113, 128, 128);
+    
+}
+li,ul {
+    list-style: none;
+    justify-content:space-evenly;
+    color: rgb(182, 148, 104);
+    
+    
+}
+.dropdown menu {
+    display: flex;
+    
+    
+    
+    opacity: 0px;
+}
+.Trigger-dropdown {
+    opacity: 1px;
+    display: flex;
+    position: absolute;
+}
+ .logo {
+    justify-content: left;
+    width: 100px;
+   float: left;
+   object-position: left;
+   margin-right: 0px;
+
+    
+    
+    
+}
+.cookie {
+   size-adjust: 800px;
+}
+img, li {
+    
+}
+h1{
+    text-align: center;
+}
+.food{
+    justify-content: center;
+    padding:70px;
+}
+/*media Query*/
+@media only screen and (max-width:768px) {
+    ul{
+        flex-direction: column;
+        height: 10vh;
+    }
+
+}
+    
+}
