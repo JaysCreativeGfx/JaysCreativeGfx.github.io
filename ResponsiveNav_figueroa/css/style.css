@@ -64,7 +64,8 @@ h1{
     padding:70px;
 }
 /*media Query*/
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:768px) 
+{
     ul{
         flex-direction: column;
         height: 10vh;

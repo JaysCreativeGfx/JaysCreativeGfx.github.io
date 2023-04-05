@@ -1,0 +1,29 @@
+#header {
+    background-color: rgb(154, 205, 188);
+}
+tr{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+tr:nth-of-type(1){
+    color: rgb(0, 0, 0);
+}
+tr:nth-of-type(3) {
+    background-color: rgb(220, 220, 220);
+    color: rgb(57, 143, 119);
+    border-bottom: solid;
+    border-top: solid;
+    border-color: black;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    padding: 10px;
+}
+tr:nth-of-type(4) {
+    background-color: rgb(251, 251, 251);
+    color: rgb(9, 9, 9);
+    border-bottom: solid;
+    border-color: black;
+}
