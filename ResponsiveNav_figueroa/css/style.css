@@ -27,15 +27,18 @@ li,ul {
     
     
 }
-.dropdown menu {
+.dropdown-menu {
     display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    background-color: black;
     
     
-    
-    opacity: 0px;
+   
 }
-.Trigger-dropdown {
-    opacity: 1px;
+.Trigger-dropdown:hover .dropdown-menu {
+    opacity: 1;
     display: flex;
     position: absolute;
 }
