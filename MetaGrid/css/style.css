@@ -11,29 +11,26 @@ main {
     height: 100vh;
 
     display: grid;
-    grid-template-columns:0.5fr 5fr;
+    grid-template-columns:0.5fr 5fr .5fr;
     grid-template-rows: 1fr 6fr 1fr;
     grid-template-areas: 
-    'navArea headerArea headerArea'
-    'navArea galleryArea galleryArea'
-    'navArea galleryarea galleryArea';
+    "navArea headerArea headerArea"
+    "navArea galleryArea galleryArea"
+    "navArea galleryarea galleryArea";
 }
 h1{
     text-align: center;
-    margin-left: 0%;
+   
 }
 
    
 .text {
     text-align: center;
-    justify-content: space-evenly;
     color: rgb(253, 253, 253);
-    object-position: left;
+    
 }
 nav {
-    background-color: rgb(8, 8, 8); width: 500px;
-    padding: px;
-    margin: 5x;
+    background-color: rgb(197, 190, 190); 
   grid-area: navArea;
  color: antiquewhite;
 
@@ -50,12 +47,12 @@ body {
     
 
 
- .logo {
+ /* .logo {
     justify-content: space-around;
     width: 100px;
    float: right;
    object-position: left;
-   margin-right: 0px;
+   margin-right: 0px; */
 
     
     
@@ -74,6 +71,8 @@ header {
 }
 section {
     grid-area: galleryArea;
+    display: flex;
+    flex-direction: column;
 }
 /*media Query*/
     
