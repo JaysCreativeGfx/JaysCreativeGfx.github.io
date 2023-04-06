@@ -10,24 +10,26 @@
 main {
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 h1{
     text-align: center;
     margin-left: 0%;
 }
-ul {
+ul li {
     display: flex;
-    position: relative;
+    flex-direction: row;
+    position: sticky;
     color: antiquewhite;
+    align-items: center;
    
    
 }
 .text {
     text-align: center;
     justify-content: space-evenly;
-    color: rgb(246, 238, 238);
+    color: rgb(253, 253, 253);
     object-position: left;
 }
 nav {
@@ -37,6 +39,7 @@ nav {
     align-content: center;
  justify-content: left;
  color: antiquewhite;
+
  
 
 }
@@ -49,6 +52,7 @@ li,ul {
     list-style: none;
     justify-content:space-evenly;
     color: rgb(182, 148, 104);
+   
     
     
 }
@@ -67,7 +71,7 @@ li,ul {
  .logo {
     justify-content: space-around;
     width: 100px;
-   float: left;
+   float: right;
    object-position: left;
    margin-right: 0px;
 
