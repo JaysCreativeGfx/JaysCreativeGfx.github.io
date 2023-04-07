@@ -16,7 +16,7 @@ main {
     grid-template-areas: 
     "navArea headerArea headerArea"
     "navArea galleryArea galleryArea"
-    "navArea galleryarea galleryArea";
+    "navArea galleryArea galleryArea";
 }
 h1{
     text-align: center;
@@ -57,7 +57,7 @@ body {
     
     
     
-}
+
 
 
 

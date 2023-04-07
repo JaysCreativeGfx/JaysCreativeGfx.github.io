@@ -1,0 +1,63 @@
+element.style {
+    background-color: #fafcff;
+}
+#facebook ._-kb a {
+    font-family: inherit;
+}
+a {
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+body {
+    background: rgba(172, 172, 172, 0.904);
+    color: #074f98;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+    
+}
+h2{
+    background-color: rgb(131, 177, 237);
+}
+h1{
+    font-family: klavika-bold;
+    text-align: center;
+    font-size: 60px;
+}
+element.style {
+}
+form {
+    margin: 20vh;
+    padding: 5p;
+    background-color: #d5e8fb;
+    width: 50%;
+    position: relative;
+    color: #0a1c78;
+    object-position: center;
+    
+}
+user agent stylesheet
+
+
+
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+h2, form{
+
+
+}
