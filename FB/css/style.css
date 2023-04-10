@@ -1,6 +1,4 @@
-element.style {
-    background-color: #fafcff;
-}
+
 #facebook ._-kb a {
     font-family: inherit;
 }
@@ -11,9 +9,10 @@ a {
 }
 user agent stylesheet
 a:-webkit-any-link {
-    color: -webkit-link;
+    color: #e2e2e2;
     cursor: pointer;
     text-decoration: underline;
+    
 }
 
 
@@ -30,7 +29,7 @@ body {
     
 }
 h2{
-    background-color: rgb(131, 177, 237);
+    text-align: center;
 }
 h1{
     font-family: klavika-bold;
@@ -40,16 +39,15 @@ h1{
 h4{
     text-align: center;
 }
-element.style {
-}
+
 form {
-    margin: 20vh;
-    padding: 5p;
+    margin: 25vh;
+    padding: 5px;
     background-color: #d5e8fb;
     width: 50%;
     position: relative;
     color: #0a1c78;
-    object-position: center;
+
     
 }
 user agent stylesheet
@@ -61,11 +59,49 @@ body, button, input, label, select, td, textarea {
     font-size: 12px;
 }
 h2, form{
+    max-height:fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #365a7e;
+  
+   
+    
+
 
 
 }
+#FirstName{
+    max-width: 600px;
+}
+label,input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+
+}
+#u_0_o_PR{
+    display: flex;
+    flex-direction: row;
+}
 /*media Query*/
+@media screen and (max-width: 1200px){
+    main{
+        grid-template-columns: 20% 60% 20%
+
+    }
+    
+
+}
+    
+
     
 @media screen and (max-width:768px) {
+    main{
+        grid-template-columns: 10% 80% 10%;
+
+    }
+    
 
 }
