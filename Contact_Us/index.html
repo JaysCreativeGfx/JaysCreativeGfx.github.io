@@ -9,27 +9,30 @@
     </head>
     <body>
         <h1>Contact Us</h1>
-        <form action="">
+        <h4>Got Questions?Feel free to reach out to us.
+        </h4>
+        <h4>Complete the form</h4>
+        <form action="https://getform.io/f/9901bc8f-0f4b-493a-85f1-f88605d6e5be" method="Post">
             <fieldset>
                 <legend</legend>
                 <label for="FirstName">First Name</label>
-                <input type="text" name="FirstName" id="FirstName"
-                placeholder="First Name">
+                <input type="text" name="FirstName" class="Field">
+                
 
                 <label for="LastName">Last Name</label>
-                <input type="text"name="LastName" id="LastName"
-                placeholder="last Name">
+                <input type="text"name="LastName" class="Field">
 
                 <label for="PhoneNumber">PhoneNumber</label>
-                <input type="PhoneNumber"name="PhoneNumber" id="PhoneNumber"
-                placeholder="PhoneNumbers">
+                <input type="PhoneNumber"name="PhoneNumber" class="Field">
 
                 <label for="Email">Email</label>
-                <input type="text"name="Email" id="Email"
-                placeholder="Email">
-                <textarea class="contact-form-email-message" cols="25" id="ContactForm1_contact-form-email-message" name="Type your message here..." rows="5" value="" placeholder="Type your message here..." value="Type your message here..." onblur='if (this.value == "") {this.value = "Type your message here...";}' onfocus='if (this.value == "Type your message here...") {this.value = "";}' ></textarea>
-                <input class="contact-form-button contact-form-button-submit" id="ContactForm1_contact-form-submit" type="button" value="SEND MESSAGE" /><div class="contact-form-error-message" id="ContactForm1_contact-form-error-message"></div><div class="contact-form-success-message" id="ContactForm1_contact-form-success-message"></div></div></form></div></div></div>
+                <input type="text"name="Email" class="Field">
+                
+                <textarea class="Message" cols="25" id="Message" name="Type your message here..." rows="5" value="" placeholder="Type your message here..." value="Type your message here..." onblur='if (this.value == "") {this.value = "Type your message here...";}' onfocus='if (this.value == "Type your message here...") {this.value = "";}' ></textarea>
+                <input class="contact-form-button contact-form-button-submit" id="ContactForm1_contact-form-submit" type="submit" value="SEND MESSAGE"> 
+                
             </fieldset>
+        </form>
 
     </body>
 </html>
