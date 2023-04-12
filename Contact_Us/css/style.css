@@ -89,6 +89,12 @@ input {
     padding: 20%;
     
 }
+input:valid{
+    border:2px green solid;
+}
+input:invalid{
+    border:2px red rgb(red, green, blue)solid;
+}
 
    
 /*media Query*/
