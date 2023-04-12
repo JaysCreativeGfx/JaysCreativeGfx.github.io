@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css"> 
-        <title>Document</title>
+        <title>Contact us</title>
     </head>
     <body>
         <h1>Contact Us</h1>
@@ -23,11 +23,17 @@
                 <input type="text"name="LastName" class="Field">
 
                 <label for="PhoneNumber">PhoneNumber</label>
-                <input type="PhoneNumber"name="PhoneNumber" class="Field">
+                <input type="text"name="PhoneNumber" class="Field">
 
                 <label for="Email">Email</label>
-                <input type="text"name="Email" class="Field">
-                
+                <input type="email"name="Email" class="Field">
+                <p>PRICE RANGE:</p>
+                <select name="price">
+                    <option value=" ">Please choose one</option>
+                    <option>$300 to $999</option>
+                    <option>$1000 to $1999</option>
+                    <option>$2000 or more</option>
+                                    
                 <textarea class="Message" cols="25" id="Message" name="Type your message here..." rows="5" value="" placeholder="Type your message here..." value="Type your message here..." onblur='if (this.value == "") {this.value = "Type your message here...";}' onfocus='if (this.value == "Type your message here...") {this.value = "";}' ></textarea>
                 <input class="contact-form-button contact-form-button-submit" id="ContactForm1_contact-form-submit" type="submit" value="SEND MESSAGE"> 
                 

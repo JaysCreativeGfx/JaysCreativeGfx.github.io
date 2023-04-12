@@ -5,7 +5,7 @@ fieldset {
 }
 input{
     display: flex;
-    grid-template-columns: max-content;
+    width: 90%;
 
 }
 body {
@@ -18,7 +18,7 @@ body {
     margin: 0;
     padding: 0;
     unicode-bidi: embed;
-    
+    align-items: center;
 }
 h2{
     text-align: center;
@@ -41,6 +41,7 @@ form {
     width: 650px;
     position: relative;
     color: #000000;
+    align-content: center;
 
     
 }
@@ -53,14 +54,17 @@ body, button, input, label, select, td, textarea {
     font-size: 12px;
 }
 .Field{
-    width: 175%;
+    width: 125%;
     display: flex;
+    align-items:center;
+    margin: 5px;
+    
     
 }
 #ContactForm1_contact-form-submit{
     justify-content: center;
-    margin: 10vh;
-    padding: 5%;
+    margin: 2vh;
+    padding: 3%;
     
     
 }
@@ -92,7 +96,7 @@ input {
     justify-content: center;
     margin-left:20%;
     padding: 50%;
-    margin: 7vh;
+    
 }
 
 #u_0_o_PR{
