@@ -1,0 +1,28 @@
+.site_hero {
+    height: 88vh;
+    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+ h1 h3{
+    justify-content: center;
+    align-items: center;
+}
+.hero_text{
+    color: brown;
+    font-family: 'Helvetica Neue';
+    font-style: italic;
+    text-align: center;
+}
+.hero_text h1{
+    font-size:5em;
+    margin-top: 10px;
+}
+.hero_text h3{
+    font-size: 3em;
+    margin-bottom: 40px;
+    
+}
