@@ -26,3 +26,36 @@
     margin-bottom: 40px;
     
 }
+.gallery{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+    object-fit: cover;
+}
+.gallery img{
+    height: 20vh;
+    width: 20vh;
+    object-fit: cover;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 2vh;
+    padding: 35%;
+
+    display: grid;
+    grid-template-columns:20% 70;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+    "navArea headerArea headerArea"
+    "navArea galleryArea galleryArea"
+    "navArea galleryArea galleryArea";
+}
+
