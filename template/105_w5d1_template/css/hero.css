@@ -46,7 +46,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 50%;
     margin: 2vh;
     padding: 35%;
 
@@ -58,12 +58,14 @@
     "navArea galleryArea galleryArea"
     "navArea galleryArea galleryArea";
 }
- .active{
+.carousel-item{
+    display: flex;
     
-
-}
-carousel-item:active{
+   
+   max-width: fit-content;
     
+    max-height: fit-content;
 }
-
-
+.carouselslide{
+    max-width: fit-content;
+}
