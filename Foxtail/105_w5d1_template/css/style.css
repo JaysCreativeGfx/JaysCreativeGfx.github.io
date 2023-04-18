@@ -238,3 +238,6 @@ h1{
   align-items: center;
   align-content: center;
 }
+.content-container content{
+  margin-bottom: 5vh;
+}
