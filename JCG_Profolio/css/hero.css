@@ -1,0 +1,94 @@
+.site_hero {
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../assets/brandon-vazquez-koC5eG6v6ew-unsplash.jpg");
+    width: 100%;
+}
+ h1 h3{
+    justify-content: center;
+    align-items: center;
+}
+.hero_text{
+    color: rgb(241, 119, 119);
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.hero_text h1{
+    font-size:5em;
+    margin-top: 10px;
+}
+.hero_text h3{
+    font-size: 3em;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.gallery{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+    object-fit: cover;
+}
+.gallery img{
+    height: 20vh;
+    width: 20vh;
+    object-fit: cover;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    margin: 2vh;
+    padding: 35%;
+
+    display: grid;
+    grid-template-columns:20% 70;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+    "navArea headerArea headerArea"
+    "navArea galleryArea galleryArea"
+    "navArea galleryArea galleryArea";
+}
+.carousel-item{
+    float: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.carouselslide{
+    display: flex;
+    align-items: center;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    
+    
+}
+
+
+
+
+
+
+
+.jcg{
+    width: 150%;
+    
+}
+
+
+
+
