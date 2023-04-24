@@ -88,6 +88,16 @@ h1{
     width: 150%;
     
 }
+.Card{
+    display: flex;
+    display: grid;
+    flex-direction: row;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+p{
+    color: white;
+   
+}
 
 
 
