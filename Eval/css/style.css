@@ -1,0 +1,35 @@
+main{
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    background-image: url("../assets/disney.webp");
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25vh;
+    margin: ;
+
+}
+#logo1{
+    justify-content: center;
+    align-items: center;
+
+}
+#logo2{
+    justify-content: center;
+    align-items: center;
+
+}
+.grid-list{
+    display: flex;
+    flex-direction: row;
+}
+button .primary{
+    justify-content: center;
+    align-items: center;
+   
+    
+}
