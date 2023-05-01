@@ -1,128 +1,152 @@
+@font-face{
+    src: url("../AvenirLTStd-Book.otf");
+   
+}
 header{ 
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../assets/hulu-bg.jpeg");
+    background-image: url("../assets/disney+bg.jpeg");
+    
+    background-color: #000000;
+   
       
 }   
-main{
-  
-}
 body{
     margin: 0%;
   
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
 }
-
- 
 #disneylogo{
-  width: 15%;
-}
-   
-
-
-#logo{
     width: 5%;
-    margin: 1vh;
-    
 }
-#logo2{
+main{
+    background-color: #000000;
+}
+ 
+
    
-}
+
+
+
+
 
     
     
 
-.signup{
-    margin: 5vh;
-   
-    
-}
-.secondary{
-    
-    margin: 15vh;
-}
+
+
+
 #login{
     float: right;
 }
 #bundle {
-    margin-bottom: 20zvh ;
+    
     text-align: center;
     justify-content: center;
     align-items: center;
     color: #ffffff;
+    margin: 20vh;
+    margin-top: 0%;
     
    
+}
+button {
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+    background-color:#ffffff ;
+    color: #2650ea;
     
 }
-#banner{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
-    color: #ffffff;
-
-}
-#logos1{
-    justify-content: center;
-    align-items: center;
 
 
-}
-#logos1{
-    width: 20%;
-}
+
+
 div h5{
-    color: #42d38d;
+    color: #ffffff;
 }
 section h5{
-    color:#42d38d ;
+    color:#c4c2c2 ;
 }
-#bundle{
-    
-   
-   
-    text-align: center;
-
-
+section h6{
+    color:#c4c2c2 ;
 }
-div h2{
-    margin: 10vh;
-   
-   
-    text-align: center;
 
 
-}
-#get-all-three{
-    
-   margin: 5vh;
 
-}
-#gallery{
-  
-    
+
+
+
+
+#gallery {
     display: grid;
     flex-direction: row;
     grid-template-rows: auto;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+   padding: 0%;
+   
+   
     
 
 
 }
-#gallery img{
-    height:50%;
-    padding: 2%;
-    margin: 5%;
+li{
+    justify-content: space-between;
 }
-h5{
+section{
+    color: #ffffff;
+}
+ul, a{
+    font-size: 110%;
+    
+    display: flex;
     align-items: center;
     justify-content: center;
-    font-family: graphik;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+#logo{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 25vh;
+    margin-top: 0%;
+    margin-bottom: 5vh;
+}
+#gallery img{
+    width: 100%;
+    margin: 1vh;
+    padding: 1vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    
+  
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+h5{
+    src: url("../AvenirLTStd-Book.otf");
+   
+    align-items: center;
+    justify-content: center;
+   
     text-align: center;
     color: rgb(169, 238, 192);
+   
    
 
 }
@@ -133,23 +157,24 @@ h2{
 
 }
 nav{
-   
+   background-color: #000000;
 }
 input{
-    color: #42d38d;
-    background-color: #6e7173;
+    color: #f0f0f0;
+    background-color: #f5f5f6;
     border:  black;
+    
 }
 nav img{
-  width: 10%;
     float: left;
-   }
+    margin:1vh;
+}
 nav button{
     border: none;
     margin: 1vh;
-    color: rgb(74, 198, 85);
-    background-color: rgb(91, 92, 92);
-    background: bla;
+    color: #0063e5;
+    background-color:#000000
+    
 }
 form{
     display: flex;
@@ -163,18 +188,10 @@ main,h5,h1,p{
 p{
     font-family: graphik;
 }
-form a{
-    display: flex;
-    margin: 1vh;
-    color: rgb(255, 255, 255);
-    
-}
-div a{
-    display: flex;
-    margin: 1vh;
-    color: rgb(255, 255, 255)
 
-}
+
+
+
 div button {
     background-color: #6e7173;
     color: #42d38d;
