@@ -253,6 +253,7 @@ h1{
   display: flex;
   align-items: center;
   align-content: center;
+  width: 200%;
 }
 .content-container content{
   margin-bottom: 5vh;
