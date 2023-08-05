@@ -1,17 +1,20 @@
 .site_hero {
     height: 88vh;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+   
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     background-image: url("../assets/brandon-vazquez-koC5eG6v6ew-unsplash.jpg");
-    width: 100%;
+    width: 220vh;
+
 }
  h1 h3{
     justify-content: center;
     align-items: center;
 }
 .hero_text{
+    align-items: center;
     color: rgb(241, 119, 119);
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
@@ -188,8 +191,11 @@ h1{
 
 
 .jcg{
-    width: 150%;
-    
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+   
+  
 }
 
 
